@@ -1,0 +1,94 @@
+/*Initial Setup*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../photoSite/Me2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    /*change values before submision*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.nav-item:hover{
+    color: blue;
+    
+}
+
+.logo{
+    color:white;
+    font-size: 35px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:yellow;
+    font-size: larger;
+    transition: .5s;
+}
+
+.btn{
+    background-color: black;
+    color:white;
+    border: 2px
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color:white;
+    margin-bottom:50px;
+    font-size: 25px;
+}
+h4{
+    color:violet;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position:relative;
+}
+.newsletter form input:first-child{
+display: inline-block;
+width: 100%;
+padding: 14px 130px 14px 15px;
+border: 2px solid blanchedalmond;
+}
+
+.about{
+    width:100%;
+    padding:100px 0px;
+    background-color: blanchedalmond;
+}
+
+
